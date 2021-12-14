@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Insta';
+    src: url('/ASSETS/Fontspring-DEMO-blue_vinyl_bold_ps_ot.otf') format('opentype')
+}
+
+body {
+    background-color: #fafafa !important;
+}
+
+nav {
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+}
+
+img {
+    margin-top: 5px;
+    width: 30%;
+}
+
+a {
+    margin-right: -70px;
+}
+
+#home {
+    margin-top: 0px;
+    width: 40%
+}
+
+.pesquisar {
+    padding: 4px;
+    background-color: #fafafa;
+    border-radius: 3px;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    height: 35px;
+    width: 250px;
+    margin-left: 250px;
+
+}
+
+#caiobagram {
+    font-family: "insta";
+    font-size: 30px;
+    margin-left: 25%;
+}
