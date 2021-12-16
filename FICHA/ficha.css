@@ -9,23 +9,39 @@ nav {
 
 #user {
     cursor: pointer;
-    margin-top: 16px;
-    width: 26%;
+    margin-top: 3px;
+    width: 50%;
+}
+
+#user:hover {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
+}
+
+.collapse {
+    margin-left: 430px;
 }
 
 a {
-    margin-right: -70px;
+    margin-right: -50px;
 }
 
 #home {
     margin-top: 0px;
-    width: 40%
+    width: 50%
 }
 
-/* #home:hover {
-    transition: 0.5s;
-    width: 42%
-} */
+#home:hover {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
+}
+
+#in {
+    margin-top: 2px;
+    width: 50%
+}
+
+#in:hover {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
+}
 
 .pesquisar {
     padding: 4px;
@@ -43,6 +59,11 @@ a {
     font-family: "insta";
     font-size: 30px;
     margin-left: 28%;
+}
+
+#caiobagram:hover {
+    color: #0095f6;
+    transition: 0.2s;
 }
 
 
@@ -83,9 +104,9 @@ p {
     border-color: rgb(204, 204, 204);
     border-width: 0.5px;
     height: 200px;
-    width: 600px;
+    width: 720px;
     margin-top: 2%;
-    margin-left: 33%;
+    margin-left: 29%;
 
 }
 
@@ -108,7 +129,7 @@ h1 {
     font-weight: bolder;
     display: inline-block;
     margin-top: 70px;
-    margin-left: 38px;
+    margin-left: 50px;
     text-decoration: underline;
 }
 
@@ -117,16 +138,21 @@ h2 {
     font-size: large;
     display: inline-block;
     margin-top: 110px;
-    margin-left: 70px;
+    margin-left: 80px;
 }
 
+/* botao */
 .mais {
     cursor: pointer;
     display: block;
     position: absolute;
     margin-top: -30px;
-    margin-left: 29%;
+    margin-left: 33%;
     width: 40px;
+}
+
+.mais:hover {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
 }
 
 .mais_aparecer {
@@ -138,25 +164,38 @@ h2 {
     display: none;
     position: absolute;
     margin-top: -30px;
-    margin-left: 29%;
+    margin-left: 33%;
     width: 40px;
 
+}
+
+.menos:hover {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
 }
 
 .menos_aparecer {
     display: block;
 }
 
+/* divisoria */
+
 .tropico_de_capricornio {
     margin-top: 25px;
     background-color: #dbdbdb;
     height: 1px;
     width: 400px;
-    margin-left: 100px;
+    margin-left: 180px;
 }
 
 
 /* ---- Carrossel ---- */
+
+.titulos_carrossel {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
 
 .aparecer_carrossel {
     display: none;
@@ -164,24 +203,279 @@ h2 {
 
 .carrossel {
     height: 75%;
-    width: 88%;
+    width: 99%;
+    margin-left: -30px;
 }
 
 .posiçao_indicadores {
-    margin-left: 150px;
+    margin-left: 195px;
 }
 
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon:hover {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
 }
 
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon:hover {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
+}
+
+.carousel-control-next:hover {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
+}
+
+.carousel-control-prev:hover {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
 }
 
 .carousel-indicators {
     filter: invert(100%);
 }
 
+
+
 /* ---- Conteudo do Carrossel ---- */
+
+/* -- Dados pessoais -- */
+
+.display_p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.card1 {
+    display: inline-block;
+    margin-left: 150px;
+    background-color: #dbdbdb;
+}
+
+.card2 {
+    display: inline-block;
+    margin-left: 60px;
+    background-color: #dbdbdb;
+}
+
+/* -- Projetos -- */
+
+#projetos_margin_top {
+    margin-top: 70px;
+}
+
+.projeto1 {
+    height: 107px;
+    width: 202px;
+    margin-bottom: 30px;
+}
+
+.projeto1 span {
+    cursor: pointer;
+    display: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -100px;
+    margin-left: 340px;
+    position: absolute;
+}
+
+.projeto1:hover span {
+    display: block;
+}
+
+#forca {
+    cursor: pointer;
+    margin-left: 305px;
+    width: 200px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.projeto1:hover img {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
+
+
+}
+
+
+.projeto2 {
+    height: 107px;
+    width: 202px;
+    margin-bottom: 30px;
+}
+
+.projeto2 span {
+    cursor: pointer;
+    display: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -80px;
+    margin-left: 340px;
+    position: absolute;
+}
+
+.projeto2:hover span {
+    display: block;
+}
+
+.projeto2:hover img {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
+
+
+}
+
+#login {
+    cursor: pointer;
+    margin-left: 305px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.projeto3 {
+    height: 107px;
+    width: 202px;
+    margin-bottom: 30px;
+}
+
+.projeto3 span {
+    cursor: pointer;
+    display: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -80px;
+    margin-left: 340px;
+    position: absolute;
+}
+
+.projeto3:hover span {
+    display: block;
+}
+
+.projeto3:hover img {
+    filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
+
+
+}
+
+#lista {
+    cursor: pointer;
+    margin-left: 305px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+/* modal */
+
+.a {
+    margin-right: 0px;
+}
+
+#img_forca {
+    margin-left: 30px;
+    width: 400px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+#img_lista {
+    margin-left: 30px;
+    width: 400px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+#img_login {
+    margin-left: 30px;
+    width: 400px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+/* -- Skills -- */
+
+.progress {
+    display: inline-block;
+    margin-left: 20px;
+    width: 490px;
+    margin-bottom: -2px;
+}
+
+.skills {
+    display: inline-block;
+
+}
+
+#barra1 {
+    margin-left: 39px;
+}
+
+#barra2 {
+    margin-left: 54px;
+}
+
+#barra3 {
+    margin-left: 66px;
+}
+
+.titulo_skill {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#barra_1 {
+    width: 446px;
+    margin-left: 22px;
+}
+
+#barra_2 {
+    width: 446px;
+    margin-left: 9px;
+}
+
+#barra_3 {
+    width: 446px;
+    margin-left: 37px;
+}
+
+#barra_4 {
+    width: 446px;
+    margin-left: 71px;
+}
