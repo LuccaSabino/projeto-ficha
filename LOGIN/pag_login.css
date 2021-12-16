@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'Insta';
-    src: url('/ASSETS/Fontspring-DEMO-blue_vinyl_bold_ps_ot.otf') format('opentype')
-}
-
-body {
-    background-color: #fafafa;
-}
-
 main {
     margin-top: 10%;
     height: 500px;
@@ -28,27 +19,7 @@ main {
 }
 
 
-#botao {
-    cursor: pointer;
-    background-color: #0095f6;
-    color: aliceblue;
-    text-align: center;
-    margin-top: 20px;
-    border-width: 0px;
-    border-radius: 4px;
-    margin-left: 1px;
-    display: block;
-    height: 30px;
-    width: 260px;
-
-}
-
-button:hover {
-    background-color: #0d77be !important;
-
-}
-
-input {
+/* input {
     padding: 4px;
     background-color: #fafafa;
     border-radius: 3px;
@@ -56,28 +27,7 @@ input {
     border-width: 1px;
     height: 25px;
     width: 250px;
-}
-
-label {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 4px;
-}
-
-.linha_do_equador {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    background-color: #dbdbdb;
-    height: 1px;
-    width: auto;
-}
-
-#esqueceu {
-    margin-left: 80px;
-    font-size: 14px;
-    color: black;
-    text-decoration: none;
-}
+} */
 
 p {
     margin-top: 20px;
@@ -90,6 +40,10 @@ p {
 
 }
 
+.linha_do_equador {
+    margin-top: 25px;
+}
+
 /* ---- Logo ---- */
 
 #display_logo {
@@ -99,13 +53,13 @@ p {
 
 .logo {
     display: flex;
-    margin-left: 43%;
+    margin-left: 39%;
     margin-top: 15%;
     align-items: center;
 
 }
 
-img {
+#logo_img {
     display: inline-block;
     height: 28%;
     width: 28%;
@@ -120,4 +74,9 @@ h1 {
     font-size: 70px;
     color: black;
 
+}
+
+.rodape {
+    margin-top: 22%;
+    text-align: center;
 }

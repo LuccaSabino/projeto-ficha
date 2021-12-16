@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Insta';
+    src: url('/ASSETS/Fontspring-DEMO-blue_vinyl_bold_ps_ot.otf') format('opentype')
+}
+
+body {
+    background-color: #fafafa !important;
+}
+
+#baiano {
+    margin-left: 50px;
+    border-radius: 70px;
+    width: 150px;
+}
+
+#botao {
+    cursor: pointer;
+    background-color: #0095f6;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-left: 1px;
+    display: block;
+    height: 30px;
+    width: 260px;
+
+}
+
+button:hover {
+    background-color: #0d77be !important;
+
+}
+
+.linha_do_equador {
+    margin-bottom: 25px;
+    background-color: #dbdbdb;
+    height: 1px;
+    width: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}

@@ -6,17 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caiobagram</title>
-    <link rel="stylesheet" href="ficha.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="ficha.css">
+    <link rel="stylesheet" href="/global.css">
 
 </head>
 
-<body>
+<body id="body">
+
+    <div id="usuario" class="login">
+
+        <img id="baiano" src="/ASSETS/EX8e2-jWsAAJTRl.png" alt="">
+
+        <label for="">
+            <p>BAIANO</p>
+        </label>
+
+        <div class="linha_do_equador">
+
+        </div>
+
+        <button id="botao" onclick="fechar()">Fechar</button>
+    </div>
+
 
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#" id="caiobagram">Caiobagram</a>
+        <a class="navbar-brand" href="/LOGIN/pag_login.html" id="caiobagram">Caiobagram</a>
         <form class="form-inline">
             <input class="mr-sm-2 pesquisar" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
 
@@ -25,26 +41,68 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"> <img id="home" src="/ASSETS/Home.jpg" alt=""> <span
-                            class="sr-only">(Página
+                    <a class="nav-link" href="/LOGIN/pag_login.html"> <img id="home" src="/ASSETS/Home.jpg" alt="">
+                        <span class="sr-only">(Página
                             atual)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="/ASSETS/Msg.jpg" alt=""></a>
+                    <img id="user" src="/ASSETS/user.jpg" alt="" onclick="user()">
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="/ASSETS/coraçao.jpg" alt=""></a>
-                </li>
-
             </ul>
         </div>
     </nav>
 
+    <main>
+        <div id="ficha" class="ficha">
+            <img class="ft_perfil" src="/ASSETS/EX8e2-jWsAAJTRl.png" alt="">
+            <h1>Lucca Sabino de Oliveira</h1>
+            <h2>Desenvolvedor front-end</h2>
+            <img class="mais" id="mais" src="/ASSETS/mais.png" alt="" onclick="abrir_ficha()">
+            <img class="menos" id="menos" src="/ASSETS/menos.png" alt="" onclick="fechar_ficha()">
+
+            <div class="tropico_de_capricornio">
+
+            </div>
+
+
+            <div id="carouselExampleIndicators" class="carousel slide carrossel aparecer_carrossel"
+                data-interval="false">
+                <ol class="carousel-indicators posiçao_indicadores">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <p>Lucca</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>Sabino</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>Oliveira</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only ">Próximo</span>
+                </a>
+            </div>
+
+
+        </div>
 
 
 
+    </main>
 
 
+
+    <script src="ficha.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
