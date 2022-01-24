@@ -1,3 +1,38 @@
+@media screen and (max-width: 900px) {
+
+    #display_logo {
+        display: inline-block;
+        width: 70% !important;
+    }
+
+    .logo {
+        display: flex;
+        margin-left: 25% !important;
+        margin-top: 15%;
+        align-items: center;
+
+    }
+
+    h1 {
+
+        margin-left: 2%;
+        display: inline-block;
+        font-family: 'Insta';
+        font-size: 40px !important;
+        color: black;
+
+    }
+
+    .login {
+        right: 10% !important;
+    }
+
+    .rodape {
+        margin-top: 120% !important;
+    }
+}
+
+
 main {
     margin-top: 10%;
     height: 500px;
@@ -68,7 +103,7 @@ p {
 
 h1 {
 
-    margin-left: 10px;
+    margin-left: 2%;
     display: inline-block;
     font-family: 'Insta';
     font-size: 70px;
