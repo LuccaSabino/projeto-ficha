@@ -1,3 +1,85 @@
+/* ---- Para mobile ---- */
+@media screen and (max-width: 900px) {
+
+    #caiobagram {
+        font-family: "insta";
+        font-size: 30px;
+    }
+
+
+    a {
+        margin-right: -55px !important;
+    }
+
+    .collapse {
+        display: inline-block !important;
+        margin-left: 31% !important;
+    }
+
+    .mobile_size {
+        width: 40% !important;
+    }
+
+    .navbar-nav {
+        flex-direction: row !important;
+    }
+
+
+    /* Ficha */
+
+    .ficha {
+        margin-top: 40px !important;
+        height: 120px !important;
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
+
+
+    .ficha_mostrar {
+        height: 820px;
+    }
+
+    .ft_perfil {
+        margin-top: 16px !important;
+        margin-left: 12px !important;
+        width: 24% !important;
+    }
+
+    h1 {
+        margin-top: 20px !important;
+        margin-left: 12px !important;
+        font-size: 120% !important;
+    }
+
+    h2 {
+        font-size: large;
+        display: inline-block;
+        margin-top: 50px !important;
+        margin-left: 18px !important;
+    }
+
+    /* botao */
+    .mais {
+        margin-top: -25px !important;
+        margin-left: 85% !important;
+        width: 10% !important;
+    }
+
+    .menos {
+        margin-top: -25px !important;
+        margin-left: 85% !important;
+        width: 10% !important;
+    }
+
+
+    /* divisoria */
+
+    .tropico_de_capricornio {
+        display: none;
+    }
+}
+
+
 /* ---- Cabeçalho ---- */
 
 nav {
@@ -7,13 +89,13 @@ nav {
     border-width: 1px;
 }
 
-#user {
+#github {
     cursor: pointer;
     margin-top: 3px;
     width: 50%;
 }
 
-#user:hover {
+#github:hover {
     filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
 }
 
@@ -25,12 +107,12 @@ a {
     margin-right: -50px;
 }
 
-#home {
+#ig {
     margin-top: 0px;
     width: 50%;
 }
 
-#home:hover {
+#ig:hover {
     filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
 }
 
@@ -41,18 +123,6 @@ a {
 
 #in:hover {
     filter: invert(56%) sepia(83%) saturate(5988%) hue-rotate(183deg) brightness(105%) contrast(101%);
-}
-
-.pesquisar {
-    padding: 4px;
-    background-color: #fafafa;
-    border-radius: 3px;
-    border-color: rgb(204, 204, 204);
-    border-width: 1px;
-    height: 35px;
-    width: 250px;
-    margin-left: 250px;
-
 }
 
 #caiobagram {
@@ -66,31 +136,8 @@ a {
     transition: 0.2s;
 }
 
-
-
-.login {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    padding: 40px 35px 30px 35px;
-    display: none;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: rgb(204, 204, 204);
-    border-width: 0.5px;
-    top: 27%;
-    right: 42%;
-}
-
-.login_aparecer {
-    display: inline-block !important;
-}
-
 p {
     margin-left: 100px;
-}
-
-.linha_do_equador {
-    margin-top: 8px;
 }
 
 
