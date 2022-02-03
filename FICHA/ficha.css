@@ -4,6 +4,7 @@
     #caiobagram {
         font-family: "insta";
         font-size: 30px;
+        margin-left: 32% !important;
     }
 
 
@@ -13,7 +14,7 @@
 
     .collapse {
         display: inline-block !important;
-        margin-left: 31% !important;
+        margin-left: 35% !important;
     }
 
     .mobile_size {
@@ -60,13 +61,13 @@
 
     /* botao */
     .mais {
-        margin-top: -28px !important;
+        margin-top: -10% !important;
         margin-left: 85% !important;
         width: 10% !important;
     }
 
     .menos {
-        margin-top: -28px !important;
+        margin-top: -10% !important;
         margin-left: 85% !important;
         width: 10% !important;
     }
