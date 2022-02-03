@@ -244,6 +244,18 @@ h2 {
 
 /* ---- Conteudo do Carrossel ---- */
 
+
+/* -- Um pouco de mim -- */
+
+#titulo_1 {
+    margin-top: 180px;
+}
+
+.sobre_mim {
+    text-align: center;
+    margin-right: 50px;
+}
+
 /* -- Dados pessoais -- */
 
 .display_p {
