@@ -1,4 +1,4 @@
-/* ---- Para mobile ---- */
+/* ---- Para mobile ----*/
 
 @media screen and (max-width: 900px) {
 
@@ -26,7 +26,7 @@
     }
 
     .login {
-        right: 10% !important;
+        right: 9% !important;
     }
 
     .rodape {
