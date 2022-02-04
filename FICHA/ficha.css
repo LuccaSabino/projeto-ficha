@@ -37,7 +37,8 @@
 
 
     .ficha_mostrar {
-        height: 820px;
+        width: 100% !important;
+        height: 700px !important;
     }
 
     .ft_perfil {
@@ -76,7 +77,139 @@
     /* divisoria */
 
     .tropico_de_capricornio {
-        display: none;
+        margin-top: 7px !important;
+        margin-left: 7px !important;
+    }
+
+    /* ---- Carrossel ----  */
+    .carrossel {
+        height: 75% !important;
+        width: 90% !important;
+        margin-left: -3% !important;
+    }
+
+    .carousel-indicators {
+        bottom: -10% !important;
+    }
+
+    .posiçao_indicadores {
+        margin-left: 110px !important;
+    }
+
+    /* -- Conteudo do Carrossel -- */
+
+    #titulo_1 {
+        margin-top: 32% !important;
+        margin-left: 18% !important;
+    }
+
+    .titulos_mobile {
+        margin-left: 18% !important;
+    }
+
+    .display_p {
+        margin-left: 18% !important;
+    }
+
+    .card-title {
+        font-size: 73% !important;
+    }
+
+    .card-text {
+        font-size: 73% !important;
+    }
+
+    .card1 {
+        margin-top: 10%;
+        height: 60% !important;
+        width: 40% !important;
+        margin-left: 55px !important;
+    }
+
+    .card2 {
+        height: 60% !important;
+        width: 40% !important;
+        margin-left: 14px !important;
+    }
+
+    #forca {
+        margin-left: 59% !important;
+    }
+
+    #login {
+        margin-left: 59% !important;
+
+    }
+
+    #lista {
+        margin-left: 59% !important;
+
+    }
+
+    #img_forca {
+        width: 80% !important;
+    }
+
+    #img_lista {
+        width: 80% !important;
+    }
+
+    #img_login {
+        width: 80% !important;
+    }
+
+    .a {
+        margin-right: 0px !important;
+    }
+
+    #barra1 {
+        margin-left: 48px !important;
+    }
+
+    #barra2 {
+        margin-left: 60px !important;
+    }
+
+    #barra3 {
+        margin-left: 70px !important;
+    }
+
+    #barra4 {
+        margin-left: 32px !important;
+    }
+
+    #barra_1 {
+        width: 230px !important;
+        margin-left: 10px !important;
+    }
+
+    #barra_2 {
+        width: 230px !important;
+        margin-left: -1px !important;
+    }
+
+    #barra_3 {
+        width: 230px !important;
+        margin-left: 22px !important;
+    }
+
+    #barra_4 {
+        width: 230px !important;
+        margin-left: 49px !important;
+    }
+
+    .progress {
+        margin-left: 20px;
+        width: 240px !important;
+    }
+
+    .skills {
+        font-size: 80% !important;
+        margin-left: 12% !important;
+    }
+
+    .titulo_skill {
+        margin-left: 18% !important;
     }
 }
 
